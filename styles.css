@@ -1,0 +1,224 @@
+*{
+    padding:0;
+    margin: 0;   
+}
+body{
+    padding:0;
+    margin: 0;
+}
+.homepage-body{
+    background-color: black;
+}
+.header{
+    background-color: #754c24;
+    height: 7pc;
+    width: 100%;
+}
+.header nav ul li{
+    margin-top: 2pc;
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial Rounded MT;
+    color: white;
+    cursor: pointer;
+}
+.header nav ul li:hover{
+    color: rgb(180, 87, 33);
+}
+.header nav ul li button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.header nav ul li button:hover{
+    background-color: #fd8207;
+}
+.header nav ul li button:active{
+    background-color: #bd7732;
+}
+.homepage{
+    border: solid black 1px;
+    margin: 3%;
+    width: 94%;
+    height: 600px;
+    background-image: url(images/800\ Repeated\ and\ Most\ Commonly\ Used\ Listening\ Vocabulary\ for\ IELTS.png);
+    background-size: cover;
+    cursor: auto;
+}
+a{
+    text-decoration: none;
+    color: auto;
+    color:white;
+}
+.homepage h1{
+    margin-top: 15%;
+    color: #fd8207;
+    margin-left: 35%;
+    font-size: 70px;
+    font-family: Geometr415 Blk BT, Bold;
+}
+.homepage h2{
+    color: #ecbf92;
+    margin-left: 18%;
+    font-family: SHORTCUT;
+}
+.homepage h3{
+    color: #ecbf92;
+    margin-left: 25%;
+    font-family: SHORTCUT;
+}
+.homepage div{
+    margin-left: 2%;
+}
+.homepage div div{
+    
+    margin-left: 35%;
+}
+.homepage button{
+    margin-top: 3%;
+    background-color: #343434;
+    margin-left: 2%;
+    height: 35px;
+    width: 15%;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.homepage button:hover{
+    background-color: #bd7732;
+}
+.homepage button:active{
+    margin-top: 3%;
+    background-color: #945a21;
+    margin-left: 2%;
+    height: 35px;
+    width: 15%;
+    border: solid white 2px;
+}
+.homepage a{
+    text-decoration: none;
+    color: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-body{
+
+    background-image: url('images/800\ Repeated\ and\ Most\ Commonly\ Used\ Listening\ Vocabulary\ for\ IELTS.png');
+    background-size: cover;
+
+
+
+
+}
+.login{
+    background-color: #fd8207;
+    background-size: cover;
+    margin-top: 11%;
+    border: solid black 1px;
+    width: 30%;
+    height: 300px;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    
+}
+.login p{
+    font-size: 40px;
+    font-family: Geometr415 Blk BT;
+    margin-left: 1pc;
+    margin-top: 4pc;
+    display: inline;
+    color: #754c24;
+    margin-bottom: 1pc;
+
+}
+.login form{
+    
+    margin: 2pc 0 10px 35px;
+}
+.login form div{
+    border: solid 1px ;
+    border-radius: 25px;
+    width: 25pc;
+    margin-left:0;
+}
+.login form div img{
+    margin-top: 1pc;
+    margin-left: 2pc;
+}
+.username{
+    border-color: rgb(0, 32, 96);
+}
+.username input{
+    width: 20pc;
+    height: 50px;
+    background-color: #fd8207;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.password input{
+    width: 20pc;
+    outline: none;
+    height: 50px;
+    background-color: #fd8207;
+    border-radius: 25px;
+    border: none;
+}
+.login-button{
+    margin-left: 2pc;
+    
+}
+.login-button input{
+    margin-top: 2pc;
+    margin-right: 9pc;
+
+}
+.login-button input{
+    background-color: #343434;
+    height: 35px;
+    width: 20%;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.login-button input:hover{
+    background-color: #bd7732;
+}
+.login-button input:active{
+    background-color: #945a21;
+    height: 35px;
+    width: 20%;
+    border: solid white 2px;
+}
+.login-button a{
+    text-decoration: underline;
+    color: blue;
+}
